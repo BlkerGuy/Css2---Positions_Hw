@@ -12,44 +12,78 @@
     max-width: 500px;
 }
 
-#general {
+
+
+#general .bg-image_1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: URL('../img/1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#general .bg-image_1-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: URL('../img/1-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#general .bg-image-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: URL('../img/2.png');
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#general .bg-image-3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: URL('../img/3.png');
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#login-panel {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    border: 1px solid black;
-
-
-    opacity: 0.902;
     width: 440px;
-    /* height: 550px; */
+    padding: 50px 45px 35px;
+    transform: translate(-50%, -50%);
+    opacity: 0.902;
     border-radius: 5px;
     filter: drop-shadow(0px 8px 10px rgba(0, 1, 1, 0.26));
     background-color: #ffffff;
-    padding: 50px 45px 35px;
-
 }
 
-#general h1 {
+#login-panel h1 {
     font-size: 24px;
     line-height: 28px;
     color: #4f4f4f;
-    font-weight: bold;
+    font-weight: 900;
     font-family: 'Montserrat', sans-serif;
 }
 
-#general form label {
+#login-panel form label {
     display: block;
     opacity: 0.800;
-    font-size: 14px;
     letter-spacing: 2px;
     line-height: 28px;
     color: #4f4f4f;
-    font-weight: bold;
-    font-family: "Proxima Nova";
+    font: bold 14px "Proxima Nova";
 }
 
-#general form input {
+#login-panel form input {
     opacity: 0.702;
     width: 100%;
     line-height: 50px;
@@ -58,17 +92,19 @@
     border: 1px solid #d8d8d8;
     font-size: 18px;
     padding-left: 15px;
+    letter-spacing: 0px;
+
 }
 
-#general form label:nth-child(1) {
+#login-panel form label:nth-child(1) {
     margin-top: 32px;
 }
 
-#general form label:nth-child(3) {
+#login-panel form label:nth-child(3) {
     margin-top: 29px;
 }
 
-#general form input:nth-child(5) {
+#login-panel form input:nth-child(5) {
     width: 21px;
     height: 21px;
     border-radius: 6%;
@@ -76,24 +112,21 @@
     margin-top: 17px;
 }
 
-#general form label:nth-child(6) {
+#login-panel form label:nth-child(6) {
     display: inline-block;
-    font-size: 14px;
-    font-weight: bold;
-    font-family: 'Golos Text', sans-serif;
+    font: bold 14px 'Golos Text', sans-serif;
+    padding-bottom: 10px;
 }
 
-#general form a {
+#login-panel form a {
     text-decoration: none;
     margin-left: 155px;
-    font-size: 14px;
     line-height: 28px;
-    font-weight: bold;
     color: #04a9f4;
-    font-family: 'Golos Text', sans-serif;
+    font: bold 14px 'Golos Text', sans-serif;
 }
 
-#general form button {
+#login-panel form button {
     width: 100%;
     margin-top: 25px;
     font: bold 24px 'Montserrat', sans-serif;
@@ -106,37 +139,31 @@
     filter: drop-shadow(0px 3px 0px #0075aa);
 }
 
-#general form button:nth-child(9) {
+#login-panel form button:nth-child(9) {
     width: 167.5px;
     height: 36px;
     border-radius: 6px;
     background-color: #3162a2;
     border-color: #3162a2;
-    font-size: 14px;
     letter-spacing: 1px;
     line-height: 20px;
     color: #ffffff;
-    font-weight: bold;
-    font-family: "Proxima Nova";
     text-align: center;
     filter: none;
-    margin-right: 5px;
-    margin-top: 50px;
+    margin:50px 5px 0 0 ;
+    font: bold 14px "Proxima Nova";   
 }
-#general form button:nth-child(10) {
+
+#login-panel form button:nth-child(10) {
     width: 167.5px;
     height: 36px;
     border-radius: 6px;
     background-color: #00aaf4;
-    font-size: 14px;
     letter-spacing: 1px;
     line-height: 20px;
     color: #ffffff;
-    font-weight: bold;
-    font-family: "Proxima Nova";
     text-align: center;
     filter: none;
-
-
+    font: bold 14px "Proxima Nova";   
 
 }
